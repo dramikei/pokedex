@@ -14,7 +14,7 @@ number of elements in that pokemon array (pokemon.count).
 The name of the images in this project is the same as the id of the corresponding Pokemon, thus using the id and name from the csv,
 the image and name of the pokemon are implemented in the each cell.
 
-<Working of the API and other stuff to be implemented in the project and wriiten.>
+Working of the API and other stuff is to be implemented in the project. WHen that'll be done I'll update this README.md
 
 # Working of the Segue.
 
@@ -28,7 +28,7 @@ It also changes the alpha of the button when the music is stopped, this gives th
 
 # Pulling data from the API and using it to change stuff in the 2nd View
 
-<To be written>
+To be Written...
 
 # NOTE:
 
