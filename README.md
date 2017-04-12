@@ -1,5 +1,5 @@
-# pokedex
-Simple Pokedex App - Devslopes
+# Pokedex
+Simple Pokedex App taught by - Devslopes
 
 # What is this Pokedex app, and what does it Do?
 
