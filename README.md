@@ -25,3 +25,15 @@ There is a Generic segue in this project, which is called when a Cell is tapped,
 Music is loaded when the app starts, and can be paused,resumed with the Music button in this project, when the music button is called the function which i have created in this project is called.
 this function checks weather the music is playing, if it IS playing then it stops it, and if it is already stopped, it simply resumes it,
 It also changes the alpha of the button when the music is stopped, this gives the app a really cool effect.
+
+# Pulling data from the API and using it to change stuff in the 2nd View
+
+<To be written>
+
+# NOTE:
+
+Pokémon© 2002-2015
+Pokémon.© 1995-2015
+Nintendo/Creatures Inc./GAME FREAK inc.TM,® and Pokémon character names are trademarks of Nintendo
+No Copyright or trademark infringement is intended in using Pokémon Content.
+Pokémon Content used in this project here falls under the Fair Use copyright law under the teaching Category.
