@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		688FF87F1E9E5D2D00E4ED37 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688FF87E1E9E5D2D00E4ED37 /* Constants.swift */; };
 		68FEB2791E9B27D90063D9A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FEB2781E9B27D90063D9A3 /* AppDelegate.swift */; };
 		68FEB27B1E9B27D90063D9A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FEB27A1E9B27D90063D9A3 /* ViewController.swift */; };
 		68FEB27E1E9B27D90063D9A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68FEB27C1E9B27D90063D9A3 /* Main.storyboard */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		688FF87E1E9E5D2D00E4ED37 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		68FEB2751E9B27D90063D9A3 /* Pokedex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pokedex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68FEB2781E9B27D90063D9A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		68FEB27A1E9B27D90063D9A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				68FF0C821E9CCDFA00329B8A /* csv.swift */,
+				688FF87E1E9E5D2D00E4ED37 /* Constants.swift */,
 			);
 			name = Utils;
 			sourceTree = "<group>";
@@ -281,6 +284,7 @@
 				68FEB27B1E9B27D90063D9A3 /* ViewController.swift in Sources */,
 				68FEB2791E9B27D90063D9A3 /* AppDelegate.swift in Sources */,
 				68FF0C8C1E9D5DB900329B8A /* PokemonDetailVC.swift in Sources */,
+				688FF87F1E9E5D2D00E4ED37 /* Constants.swift in Sources */,
 				68FEB28D1E9B30230063D9A3 /* Pokemon.swift in Sources */,
 				68FF0C831E9CCDFA00329B8A /* csv.swift in Sources */,
 			);
