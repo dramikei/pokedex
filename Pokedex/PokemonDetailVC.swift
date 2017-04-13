@@ -29,6 +29,12 @@ class PokemonDetailVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        nameLbl.text = pokemon.name.capitalized
+        
+        let img = UIImage(named: "\(pokemon.pokedexId)")
+        mainImg.image = img
+        currentEvoImg.image = img
+        pokedexLabel.text = "\(pokemon.pokedexId)"
         pokemon.downloadPokemonDetail { 
             //whatever we write here will only be called when the network call is complete
             
@@ -43,6 +49,7 @@ class PokemonDetailVC: UIViewController {
         typeLabel.text = pokemon.type
         defenseLabel.text = pokemon.defense
         heightLabel.text = pokemon.height
+        typeLabel.text = pokemon.type
     }
     
     @IBAction func backButtonPressed(_ sender: Any) {
