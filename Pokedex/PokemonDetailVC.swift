@@ -22,7 +22,6 @@ class PokemonDetailVC: UIViewController {
     @IBOutlet weak var attackLabel: UILabel!
     @IBOutlet weak var currentEvoImg: UIImageView!
     @IBOutlet weak var nextEvoLabel: UIImageView!
-    
     @IBOutlet weak var evoLabel: UILabel!
     
     var pokemon: Pokemon!
@@ -49,7 +48,15 @@ class PokemonDetailVC: UIViewController {
         typeLabel.text = pokemon.type
         defenseLabel.text = pokemon.defense
         heightLabel.text = pokemon.height
-        typeLabel.text = pokemon.type
+        if pokemon.nextEvolutionID == "" {
+            evoLabel.text = "No Evolution available."
+            nextEvoLabel.isHidden = true
+        }else {
+            evoLabel.text = "Evolution: \(pokemon.nextEvolutionName) \(pokemon.nextEvolutionLevel)"
+            nextEvoLabel.image = UIImage(named: "\(pokemon.nextEvolutionID)")
+        }
+        
+        descriptionLabel.text = pokemon.description
     }
     
     @IBAction func backButtonPressed(_ sender: Any) {
